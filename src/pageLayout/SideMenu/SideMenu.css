@@ -1,0 +1,19 @@
+.side-menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #fff;
+  transition: right 0.3s ease;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+.sidebar-open {
+  right: -300px;
+}
+
+.listStyle {
+  padding: 20px;
+  list-style: none;
+}
